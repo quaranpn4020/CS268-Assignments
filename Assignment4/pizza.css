@@ -1,0 +1,164 @@
+body {  
+    position: relative;
+    margin: 0 auto;
+}
+
+#mainImage {
+    width: 100%;
+    z-index: 1;
+    background-image: url("images/pizza_background.jpg");
+    background-size: cover;
+}
+
+#mainImageText {
+    display: inline-block;
+    margin-top: 16%;
+    margin-bottom: 3%;
+    margin-left: 2.5%;
+    padding: 2.5%;
+    font-family: cabin-sketch, sans-serif;
+    font-size: 1.25em;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #000000;
+    z-index: 2;
+    opacity: 0.8;
+    filter: alpha(opacity=80);  
+}
+
+#mainImageText h1 {
+    font-size: 4.2em;
+    font-weight: bold;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#menuBar {
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #000000;
+    z-index: 2;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+#menuBar ul {
+    margin: 0;
+    text-align: center;
+    list-style-type: none;
+}
+
+#menuBar li {
+    display: inline;
+}
+
+#menuBar a {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.125em;
+    font-family: cabin-sketch, sans-serif;
+}
+
+#menuBar a:hover {
+    color: #db536b;
+    text-decoration: underline;
+}
+
+#subContentLeft {
+    float: left;
+    width: 26.3%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    margin: 1%;
+    background-color: #d46b34;
+    font-family: passion-one, sans-serif;
+    font-size: 2.5em;
+    color: black;
+}
+
+#subContentMiddle {
+    float: left;
+    width: 26.4%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    margin: 1%;
+    background-color: #db536b;
+    font-family: passion-one, sans-serif;
+    font-size: 2.5em;
+    color: black;
+}
+
+#subContentRight {
+    float: left;
+    width: 26.3%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    margin: 1%;
+    background-color: #f5c12d;
+    font-family: passion-one, sans-serif;
+    font-size: 2.5em;
+    color: black;
+}
+
+
+
+.imgFloatLeft {
+    float: left;
+    padding-right: 10%;
+}
+
+#footer {
+    display: inline-block;
+    width: 99.8%;
+    padding-top: .5%;
+    padding-bottom: .25%;
+    border-style: dotted;
+    border-width: thin;
+    border-color: grey;
+    text-align: center;
+    font-size: .875em;
+    color: #003300;
+    font-family: cabin-sketch, sans-serif;
+}
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (min-width: 451px) and (max-width: 925px) {
+    .imgFloatLeft {
+        display: block;
+        float: none;
+        padding-left: 0%;
+    }
+}
+
+@media (max-width: 450px) {
+    #subContentLeft {
+        display: inline-block;
+        width: 93%;
+        float: none;
+    }
+    
+    #subContentMiddle {
+        display: inline-block;
+        width: 93%;
+        float: none;
+    }
+    
+    #subContentRight {
+        display: inline-block;
+        width: 93%;
+        float: none;
+    }
+}

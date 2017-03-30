@@ -1,0 +1,183 @@
+body {
+    position: relative;
+    margin: 0 auto;
+}
+
+.textBoxBlack {
+    width:230px;
+    height:230px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    float: left;
+    line-height: 1;
+}
+
+.textBoxWhite {
+    width:228px;
+    height:228px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    font-size: 1em;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    float: left;
+    border-color: black;
+    border-style: dotted;
+    border-width: thin;
+    line-height: 1;
+}
+
+.textBoxBlackLarge {
+    width: 460px;
+    height: 210px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    float: left;
+    line-height: 1;
+}
+
+.textBoxWhiteLarge {
+    width: 458px;
+    height: 208px; 
+    padding: 20px;
+    background-color: white;
+    color: black;
+    font-size: 1em;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    float: left;
+    border-color: black;
+    border-style: dotted;
+    border-width: thin;
+    line-height: 1;
+}
+
+.imageBox {
+    width:250px;
+    height:250px;
+    float: left;
+}
+
+.classInformation {
+    font-size: 2.25em;
+    padding-top: 150px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    
+}
+
+.classCategory {
+    font-size: 1em;
+    font-weight: bold;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif; 
+}
+
+
+
+h1 {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+#nav {
+    width: 100%;
+    margin-top: 75px;
+    margin-left: 10px;
+    font-size: 1.25em;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif; 
+}
+
+#nav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+#nav a:hover {
+    text-decoration: underline;
+}
+
+#footer {    
+    display:inline-block; 
+    width:99.8%;    
+    padding-top:.5%;    
+    padding-bottom:.25%;    
+    border-style:dotted;    
+    border-width:thin;    
+    text-align:center;    
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;    
+    font-size:.75em;    
+    color:#003300;
+}
+
+.audioBoxBlack {
+    width:230px;
+    height:230px;
+    padding: 10px;
+    background-color: black;
+    color: black;
+    font-size: 2.5em;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    float: left;
+    text-align: right;
+    line-height: 1;
+    overflow: hidden;
+}
+
+.audioBoxWhite {
+    width:228px;
+    height:228px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    font-size: 2.5em;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    float: left;
+    text-align: right;
+    border-color: black;
+    border-style: dotted;
+    border-width: thin;
+    line-height: 1;
+    overflow: hidden;
+}
+
+.catImage {
+    
+}
+
+.audioBoxBlack a {
+    color: white;
+    text-decoration: none;
+}
+
+.audioBoxWhite a {
+    color: black;
+    text-decoration: none;
+}
+
+#popupContainer {
+    position: absolute;
+    visibility: hidden;
+    z-index: 100;
+}
+
+#video {
+    visibility: hidden;
+    z-index: 150;
+}
+
+
+
+

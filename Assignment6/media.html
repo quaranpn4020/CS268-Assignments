@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="keywords" content = "cats,assignment1,kittens,cat website, media">
+    <meta name="description" content = "Assignment 1 media page for cats">
+    <link rel="stylesheet" type="text/css" href="cats.css">
+    <title>Cats | Media</title>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="cats.js"></script>
+</head>
+
+<body>
+    
+    <!--Images have class "expand" to expand the image, the image which plays the video has id "playNyan"-->
+    <div id="container">
+        <div class = "textBoxBlack">
+            <h1>Cats<br> (felis catus)</h1>  
+            <div id="nav">
+                <a href = "index.html">Home</a> <a href = "media.html">Media</a>
+            </div>
+        </div>
+        <div class="textBoxWhite">This page contains pictures and audio of cats.</div>
+        <div class="imageBox"><img src = "images/cat1.jpg" alt = "bowtie kitten" class="expand"></div>
+        <div class="imageBox"><img src = "images/cat2.jpg" alt = "tan kitten" class="expand"></div>
+       
+        <!-- VIDEO BOX, no expand class -->
+        <div class="imageBox"><img src = "images/nyan_cat.jpg" id="playNyan" alt = "nyan cat"></div> 
+        <!-- ----- -->
+        
+        <div class="imageBox"><img src = "images/cat3.jpg" alt = "grey and white kitten" class="expand"></div>
+        <div class="imageBox"><img src = "images/cat4.jpg" alt = "flying fluffy kitten" class="expand"></div>
+        <div class="audioBoxBlack">
+            <a href="#">
+                Meow :)
+                <audio id="meow1" src = "audio/cat_meow.mp3"></audio> 
+            </a>
+        </div>
+        <div class="imageBox"><img src = "images/cat5.jpg" alt = "tan kitten outside" class="expand"></div>
+        <div class="imageBox"><img src = "images/cat6.jpg" alt = "light kitten with blue eyes" class="expand"></div>
+        <div class="imageBox"><img src = "images/cat7.jpg" alt = "smiling kitten" class="expand"> </div>
+        <div class="audioBoxWhite">
+            <a href="#">
+                Meow :(
+                <audio  id="meow2" src = "audio/cat_meow2.mp3"></audio>
+            </a>
+        </div>
+        <div class="imageBox"><img src = "images/cat8.jpg" alt = "begging kitten" class="expand"></div>
+        <div id ="footer"><footer>Site by Peter. ©2017.</footer></div>
+    </div>
+    
+    <div id="popupContainer">
+        <video src="videos/nyan_cat.mp4" id="video" width="500px" height="333px" visibility="hidden"></video>
+    </div>
+    
+    
+</body>
+    
+    
+
+</html>

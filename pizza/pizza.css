@@ -1,0 +1,148 @@
+body {  
+    width: 1000px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#mainImage {
+    position: absolute;
+    width: 1000px;
+    height: 400px;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background-image: url("images/pizza_background.jpg");
+}
+
+#mainImageText {
+    position: absolute;
+    left: 25px;
+    top: 200px;
+    padding: 25px;
+    font-family: cabin-sketch, sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #000000;
+    z-index: 2;
+    opacity: 0.8;
+    filter: alpha(opacity=80);  
+}
+
+#mainImageText h1 {
+    font-size: 84px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#menuBar {
+    position: absolute;
+    width: 1000px;
+    top: 0px;
+    left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #000000;
+    z-index: 2;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+#menuBar ul {
+    margin: 0;
+    text-align: center;
+    list-style-type: none;
+}
+
+#menuBar li {
+    display: inline;
+}
+
+#menuBar a {
+    margin-left: 75px;
+    margin-right: 75px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: cabin-sketch, sans-serif;
+}
+
+#menuBar a:hover {
+    color: #db536b;
+    text-decoration: underline;
+}
+
+#subContentLeft {
+    position: absolute;
+    width: 263px;
+    height: 145px;
+    top: 400px;
+    left: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 10px;
+    background-color: #d46b34;
+    font-family: passion-one, sans-serif;
+    font-size: 40px;
+    color: black;
+}
+
+#subContentMiddle {
+    position: absolute;
+    width: 264px;
+    height: 145px;
+    top: 400px;
+    left: 333px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 10px;
+    background-color: #db536b;
+    font-family: passion-one, sans-serif;
+    font-size: 40px;
+    color: black;
+}
+
+#subContentRight {
+    position: absolute;
+    width: 264px;
+    height: 145px;
+    top: 400px;
+    left: 667px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 10px;
+    background-color: #f5c12d;
+    font-family: passion-one, sans-serif;
+    font-size: 40px;
+    color: black;
+}
+
+
+
+.imgFloatLeft {
+    float: left;
+    padding-right: 25px;
+}
+
+#footer {
+    position: absolute;
+    width: 998px;
+    height: 18px;
+    top: 595px;
+    left: 0px;
+    padding-top: 5px;
+    border-style: dotted;
+    border-width: thin;
+    border-color: grey;
+    text-align: center;
+    font-size: 14px;
+    color: #003300;
+    font-family: cabin-sketch, sans-serif;
+}
