@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UWECPoll | Poll Results</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+        function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Poll Option', 'Votes'],
+          ['Option 1', 2],
+          ['Option 2', 3]
+        ]);
+
+        var options = {
+          title: 'Poll question placeholder',
+            pieSliceText: 'percentage',
+            width: '500',
+            height: '500'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+        chart.draw(data, options);
+      }
+    </script>
+    <script src="results.js"></script>
+    
+</head>
+<body>
+    <h1>uwecpoll</h1>
+    <div class="container">
+        <h1>Poll Name Placeholder</h1>
+        <h2>Poll Question Placeholder</h2>
+        <h3>Option 1: 2 votes</h3>
+        <h3>Option 2: 3 votes</h3>
+        <div id="piechart"></div>
+    </div>
+</body>
+    
+</html>

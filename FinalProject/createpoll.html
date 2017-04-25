@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UWECPoll | Create poll</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="createpoll.js"></script>
+    
+</head>
+<body>
+    <h1>uwecpoll</h1>
+    <div class="container">
+        <form name="poll" action="processCreatePoll.php" method="post" onsubmit="return validateForm();">
+            <textarea name="question" placeholder="Question"></textarea>
+            <input type="text" name="option" id="option1">
+            <input type="text" name="option" id="option2">
+            <input type="text" name="option" id="option3">
+            <input type="submit" value="Create Poll!" name="submit">
+        </form>
+    </div>
+</body>
+    
+</html>
